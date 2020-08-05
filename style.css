@@ -40,21 +40,21 @@ h2{
   text-align: left;
   margin: auto;
   width: 88vw;
-  margin-bottom: 12px;
+  margin-bottom: 42px;
 }
 
 h2::before{
   content: "";
-  border-bottom: 8px solid brown;
+  border-bottom: 8px solid rgb(245, 235, 235);
   width: 10%;
   position: absolute;
-  top: 5rem;
+  top: 4.0rem;
 }
 
 figure{
+  border-radius: 5px;
   background-color: rgb(245,245,245);
-  box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
-  /*border: 2px solid red;*/
+  box-shadow: 5px 5px 15px rgba(80, 80, 80, 0.4);
 }
 
 header{
@@ -62,14 +62,11 @@ header{
     background-size: cover;
     background-blend-mode: soft-light;
     min-height: 100vh;
-    /*overflow: hidden;*/
     position: relative;
     width: 100%;
-    /*border: 2px solid red;*/
 }
 
 .nav-menu{
-  /*border: 2px solid blue;*/
   position: fixed;
   width: 100%;
   z-index: 20000;
@@ -87,17 +84,11 @@ box-shadow: none;
   padding: 0px 20px;
   align-items: center;
   justify-content: center;
-  /*border: 1px solid tomato;*/
-}
-
-.menu figure{
-  /*border: 2px solid red;*/
 }
 
 
 .m-dropdown li a{
   display: block;
-  /*border: 1px solid yellow;*/
   color: white;
   padding: 8px 22px;
   transition: all 0.4s;
@@ -133,8 +124,6 @@ box-shadow: none;
   text-shadow:rgb(150,150,150) 1px 1px 2px;
   padding: 5px;
   transition: all 0.5s;
-  /*animation-name: bottomLine;
-  animation-duration: 0.8s;*/
 }
 
 .dropdown div a:hover{
@@ -174,8 +163,6 @@ as the Menu*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border: 3px solid green;*/
-  /*height: 100vh;*/
 }
 
 .header-content h1{
@@ -216,11 +203,8 @@ as the Menu*/
 }
 
 .projects{
-  /*padding: 2.5rem 0rem;*/
   position: relative;
-  /*border: 2px solid red;*/
 }
-
 
 .projects-container{
   position: relative;
@@ -236,7 +220,6 @@ as the Menu*/
   margin: auto;
 }
 
-
 .projects .boxes img{
   display: block;
   width: 100%;
@@ -249,7 +232,6 @@ figcaption{
   color: rgb(3, 3, 200);
   text-shadow: 0 0 3px rgba(200,200,200,0.9);
   text-transform: uppercase;
-  /*font-family: 'Trebuchet MS';*/
   text-align: right;
 }
 
@@ -264,7 +246,6 @@ figcaption{
   position: absolute;
   top: 0;
   left: 120%;
-  /*border: 2px solid red;*/
 }
 
 .projects-shown.moveleft{
@@ -303,14 +284,8 @@ figcaption{
 /*FAQ SECTION*/
 .faq{
   background-color: rgb(228, 228, 220);
-  /*padding: 4% 0;*/
   border-bottom: 2px solid rgb(51, 49, 49);
   position: relative;
-}
-
-.faq>div{
-  /*margin: 0.5% 0;*/
-  /*overflow: auto;*/
 }
 
 .question{
@@ -341,20 +316,16 @@ margin: 10px;
 
 /*ABOUT SECTION*/
 .about{
-  /*border: 2px solid green;*/
   position: relative;
 }
 
 .gallery-text{
-  /*border: 2px solid red;*/
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
   width: 88vw;
   margin: 25px auto;
-  /*padding: 15px 0;*/
 }
-
 
 .gallery-text img{
   display: block;
@@ -364,15 +335,11 @@ margin: 10px;
 
 .notes{
   padding: 27px;
-  /*background-color: rgb(245,245,245);*/
-  box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+  border-radius: 5px;
   line-height: 1.3rem;
   text-align: justify;
   min-height: 50vh;
-}
-
-.gallery-text:nth-of-type(2){
-  /*display: none;*/
+  box-shadow: 5px 5px 15px rgba(80, 80, 80, 0.4);
 }
 
 .arrow{
@@ -388,11 +355,9 @@ margin: 10px;
   border-radius: 50%;
   box-shadow: 0 0 4px 2px rgba(0,0,0,0.4);
   transition: all 0.3s;
-  /*margin: 0 20px;*/
 }
 
 .arrow:hover{
-  /*color: rgb(10,230,10);*/
   box-shadow: 0 0 6px 4px rgba(0,0,0,0.4);
 }
 
@@ -406,7 +371,6 @@ margin: 10px;
 
 .mission{
   position: relative;
-  /*border: 2px solid green;*/
 }
 
 .container{
@@ -414,8 +378,6 @@ margin: 10px;
   color: rgb(255,255,255);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-  /*border: 2px solid red;*/
-  /*margin: 30px 0;*/
   min-height: 16vh;
 }
 
@@ -423,21 +385,17 @@ margin: 10px;
   padding: 30px;
 }
 
-
 .face-left{
   border-radius: 0 50px 50px 0;
-  /*border: 3px solid skyblue;*/
 }
 
 .face-right{
   border-radius: 50px 0px 0px 50px;
-  /*border: 3px solid yellow;*/
 }
 
 .direction-container{
   position: relative;
   width: 100%;
-  /*height: 16vh;*/
 }
 
 .line{
@@ -455,10 +413,8 @@ margin: 10px;
   margin: auto;
 }
 
-
 footer{
     background-color: rgb(196, 193, 193);
-    /*padding: 0 2%;*/
 }
 
 .footer-store{
@@ -501,7 +457,7 @@ footer img{
 }
 
 
-@media (max-width:703px) {
+@media (max-width:700px) {
 
   .menu{
     justify-content: space-between;
@@ -514,29 +470,11 @@ footer img{
     display: block;
   }
 
-  .arrow{
-    top: 88%;
-  }
-  .left-arrow{
-    left: 40%;
-  }
-  .right-arrow{
-    right: 40%;
-  }
 }
 
 @media (max-width: 500px) {
-  /*.menu{
-    display: block;
-  }*/
-  /*.dropdown{
-    display: block;
-    border: 2px solid yellow;
-  }*/
-
 /*CHECK HERE*/
 .m-dropdown, .m-dropdown li{
-  /*display: block;*/
   margin: 0;
   padding: 0;
 }
@@ -545,23 +483,8 @@ footer img{
 }
 
 @media (max-width:400px) {
-  .left-arrow{
-    left: 30%;
-  }
-  .right-arrow{
-    right: 30%;
-  }
   .container{
     display: block;
   }
 }
 
-@media (max-width:200px) {
-
-  .left-arrow{
-    left: 20%;
-  }
-  .right-arrow{
-    right: 20%;
-  }
-}
