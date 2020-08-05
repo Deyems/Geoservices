@@ -3,9 +3,7 @@ class GeoSpring{
   //Btn for the services slide
   btn = document.querySelector('.btn');
   questions_link = document.querySelectorAll('.question>p');
-  //Arrows for the About content
-  left_arrow = document.querySelector('.left-arrow');
-  right_arrow = document.querySelector('.right_arrow');
+  
   aboutGeos = document.querySelectorAll('.gallery-text');
   dropdown_btn = document.querySelector('.button');
   m_dropdown = document.querySelector('.m-dropdown');
@@ -21,7 +19,6 @@ class GeoSpring{
       this.questions_link.forEach(que => {
         que.addEventListener('click', this.showAnswers);
       });
-      this.left_arrow.addEventListener('click',this.runslide);
       this.dropdown_btn.addEventListener('click',this.showMobileNav);
   }
 
@@ -60,3 +57,9 @@ class GeoSpring{
 
 let seyiGeospring = new GeoSpring();
 seyiGeospring.run();
+
+AOS.init({
+  once: true, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+anchorPlacement: 'top-bottom',
+});
